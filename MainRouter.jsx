@@ -7,7 +7,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
-import About from './src/about'
+import About from './src/About'
 import Contact from './src/contact'
 import Services from './src/services'
 import Project from './src/project'
