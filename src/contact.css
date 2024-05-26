@@ -1,0 +1,33 @@
+/* 
+ * File name: project.css
+ * Student's Name: Aniket Monani
+ * StudentID: 301422485
+ * Date: 2024-05-26
+ */
+#ffp{
+
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    
+   
+}
+
+label{
+    font-size:xx-large;
+}
+
+input{
+    font-size: larger;
+}
+
+.submit{
+    font-size:x-large;
+}
+
+p,a{
+    font-size:x-large;
+    text-align: center;
+}
