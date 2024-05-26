@@ -6,6 +6,7 @@
  */
 import React from 'react';
 import BBG from '../src/assets/BBG.jpg';
+import res from '../src/assets/resume.pdf';
 import { Link } from 'react-router-dom';
 import '../src/home.css';
 
@@ -17,7 +18,7 @@ export default function Home() {
         <span className="introName">Aniket Monani</span>
         <img src={BBG} alt="profile" className="bbg" />
         <h2 className="jobTitle">DevOps Engineer</h2>
-        
+        <a href={res} target="_blank"><button className="workBtn">Resume</button></a>
       </div>
       <div className="introPara">
       <p className='para'>
