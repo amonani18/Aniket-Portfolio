@@ -95,7 +95,9 @@
     .introPara {
       font-size: 1em;
     }
-  
+    .hire {
+      padding: 16px 48px;
+    }
     .bbg {
       width: 150px;
       height: 150px;

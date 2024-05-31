@@ -12,6 +12,7 @@ import hire from '../src/assets/hire.jpg';
 import { Link } from 'react-router-dom';
 import '../src/index.css'
 import '../src/about.css'
+import '../components/layout.css'
 export default function About() {
      return <>
      <section id="skill">
@@ -38,9 +39,9 @@ export default function About() {
                By creating efficient workflows, I ensure continuous delivery and improve the reliability of software development, enabling teams to release updates faster and with higher quality.</span>
               </div>
          </div>       
-         <div className="btn">
-               <Link to="/about"><button className="btncolor"><p className='hire'>Hire Me</p></button></Link>
-          </div>
+         
+               <li className='hire'><Link to="/about">Hire Me</Link></li>
+          
     </section>
      
      
