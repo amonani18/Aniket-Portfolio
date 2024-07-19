@@ -21,7 +21,7 @@ export default function About() {
          <span className="skillDesc">Hello! I'm Aniket Monani an international student from India, currently studying Software Engineering and Technology at Centennial College in Canada. 
          I'm passionate about Cloud Engineering and DevOps Engineering, and I'm actively learning technologies like C#, Java, Python, and web development. 
          With a focus on tools like Jenkins, Terraform, and GitHub Actions, I'm dedicated to building efficient, scalable solutions. Welcome to my journey in the tech world!</span> 
-         
+         <li className='hireme'><Link to="/about" className='hiretext'>Hire Me</Link></li>
          <div className="skillBar">
               <img src={ux} alt="UIDesign" className="skillBarImg" />
               <div className="skillBarText">
@@ -39,9 +39,9 @@ export default function About() {
                By creating efficient workflows, I ensure continuous delivery and improve the reliability of software development, enabling teams to release updates faster and with higher quality.</span>
               </div>
          </div>       
-         
-               <li className='hire'><Link to="/about">Hire Me</Link></li>
-          
+               
+               
+               
     </section>
      
      

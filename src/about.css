@@ -1,4 +1,3 @@
-
 /* 
  * File name: project.css
  * Student's Name: Aniket Monani
@@ -30,7 +29,7 @@
   justify-content: center;
   text-align:center;
   margin: 0 auto;
-  background-color: #d7fbf7;
+  background-color: black;
 }
 
 .skillTitle{
@@ -51,7 +50,7 @@
   padding: 0 2rem;
   margin-top: 70px;
   margin-bottom: 100px;
-  color: black;
+  color: white;
 }
 
 .skillBars{
@@ -60,16 +59,51 @@
   max-width: 80%;
   text-align: left;
 }
-
+.hireme {
+  border-radius: 100px;
+  box-shadow: color(xyz-d50 0 0 0 / 0.32) 19px -20px 18px -14px, rgb(22 187 155) 0 1px 2px, rgb(25 132 119 / 83%) 0 2px 4px, rgb(49 174 149 / 0%) 0 4px 8px, rgb(35 182 164 / 0%) 0 8px 16px, rgb(0 0 0 / 51%) 0 16px 32px;
+  color: #4ec4b8;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-bottom: 20px;
+  margin-top: -50px;
+}
+.hireme:hover {
+  box-shadow: rgb(44 187 165 / 36%) 0 -25px 18px -14px inset,
+  rgb(44 187 170 / 25%) 0 1px 2px, 
+  rgb(44 187 186 / 25%) 0 2px 4px, 
+  rgb(44 178 187 / 25%) 0 4px 8px, 
+  rgb(44 187 165 / 25%) 0 8px 16px, 
+  rgb(44 187 175 / 25%) 0 16px 32px;
+  transform: scale(1.05);
+}
+.hiretext{
+  color: white;
+  text-align: center;
+}
+.hiretext:hover{
+  color: white;
+}
 .skillBar{
   display: flex;
   margin: 1rem;
   padding: 1.5rem 2rem;
   border-radius: 0.5rem;
-  background: #4ec4b8;
+  background: rgb(0 0 0 / 51%);
+  border: ridge;
 }
 .dd{
-  color: black;
+  color: white;
   align-items: center;
 }
 .skillBarImg{

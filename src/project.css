@@ -80,21 +80,6 @@ p.para1 {
     color: #666;
 }
 
-.workBtn {
-    margin-top: 2rem;
-    padding: 0.5rem 2.5rem;
-    border: none;
-    border-radius: 2rem;
-    background: #007bff;
-    color: white;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-.workBtn:hover {
-    background: #0056b3;
-}
-
 @media screen and (max-width: 768px) {
     .worksContainer {
         flex-direction: column;

@@ -9,7 +9,8 @@ import '../src/contact.css'
 export default function Contact() {
      return (
      <>
-     <p>Contact</p>
+     <h1 className='contact'>Contact Form</h1>
+
      <form id="ffp">
 		
 			

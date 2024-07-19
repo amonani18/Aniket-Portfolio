@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: vertical;
-    background: #d7fbf7;
+    background: black;
     color: #333;
     min-height: 100vh;
     text-align: center;
@@ -27,7 +27,7 @@
     font-size: 2em;
     margin-bottom: 10px;
     display: block;
-    color: #007bff;
+    
   }
   
   .introText {
@@ -38,7 +38,7 @@
   }
   
   .introName {
-    color: #007bff;
+    color: #4ec4b8;
     font-weight: bold;
   }
   
@@ -72,7 +72,38 @@
     margin-top: 20px;
     border: 5px solid #007bff;
   }
-  
+  .workBtn {
+  margin-top: 2rem;
+  padding: 0.5rem 2.5rem;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1rem;
+  border-radius: 100px; 
+  box-shadow: color(xyz-d50 0 0 0 / 0.32) 19px -20px 18px -14px, rgb(22 187 155) 0 1px 2px, rgb(25 132 119 / 83%) 0 2px 4px, rgb(49 174 149 / 0%) 0 4px 8px, rgb(35 182 164 / 0%) 0 8px 16px, rgb(0 0 0 / 51%) 0 16px 32px;
+  color: #4ec4b8;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.workBtn:hover {
+  box-shadow: rgb(44 187 165 / 36%) 0 -25px 18px -14px inset,
+  rgb(44 187 170 / 25%) 0 1px 2px, 
+  rgb(44 187 186 / 25%) 0 2px 4px, 
+  rgb(44 178 187 / 25%) 0 4px 8px, 
+  rgb(44 187 165 / 25%) 0 8px 16px, 
+  rgb(44 187 175 / 25%) 0 16px 32px;
+transform: scale(1.05);
+}
 
   .hire{
     color: black;
@@ -102,5 +133,4 @@
       width: 150px;
       height: 150px;
     }
-  }
-  
+}
